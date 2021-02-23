@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+}
+
+.videoHome {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0 3% 0;
+}
+
+.novedades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infograf {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.tour {
+    display: flex;
+    justify-content: space-around;
+}
+
+.novedades img {
+    padding: 10px 15px 10px 15px;
+    margin: 10px 15px 10px 15px;
+}
+
+label {
+    background-color: rgb(49, 42, 40);
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+.temas li {
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "logo logo . . nav nav nav nav"
+        ". discografia discografia discografia discografia discografia discografia ."
+        ". discografia discografia discografia discografia discografia discografia ."
+        ". discografia discografia discografia discografia discografia discografia ."
+        ". discografia discografia discografia discografia discografia discografia ."
+        ". . . . social social social social";
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.discografia {
+    grid-area: discografia;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.slide  {
+margin: 5%;
+}

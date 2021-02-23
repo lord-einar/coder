@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../img/fondo.jpg); }
+
+h1, h2 {
+  color: red;
+  text-decoration: underline;
+  text-align: center;
+  margin: auto;
+  padding: 15px; }
+
+.centrado, .nombre-index, .img-contacto, .videoHome {
+  display: flex;
+  justify-content: center; }
+
+.labelOnImage, .label-titulo, .h2-label {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 20%;
+  font-size: 4rem; }
+
+.label-titulo, .h2-label {
+  font-family: 'Carrois Gothic SC', sans-serif; }
+
+.h2-label {
+  color: black;
+  font-size: 3rem; }
+
+.nombre-index {
+  margin: auto auto; }
+
+.discografia__album {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin: 1% 4%; }
+  .discografia__album h3:hover {
+    transition: 0.5;
+    transform: scale(1.2); }
+  .discografia__album img {
+    width: 350px; }
+  .discografia__album img:hover {
+    transition: 0.5;
+    transform: scale(1.2);
+    border: red 1px solid; }
+  .discografia__album li {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid brown; }
+    .discografia__album li:hover {
+      transition: 0.5;
+      transform: scale(1.2); }
+
+.container__row__carousel-inner__carousel-item {
+  max-height: 50vh; }
+  .container__row__carousel-inner__carousel-item img {
+    width: 50vh; }
+
+.footer__social {
+  grid-area: social;
+  margin: 5%; }
+  .footer__social a {
+    padding: 5%; }
+
+.footer__social__a:hover {
+  transition: 0.5s;
+  transform: rotate(360deg) scale(2);
+  color: chocolate; }
+
+.menu-lista {
+  display: inline-block;
+  padding: 10px 15px 10px 15px;
+  margin: 10px 15px 10px 15px;
+  border: 1px solid brown; }
+  .menu-lista:hover {
+    transition: 0.5;
+    transform: scale(1.5); }
+
+h3 {
+  color: red;
+  font-size: 2rem;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  text-align: center; }
+
+.discografia__album__titulo-album-album {
+  width: 100%;
+  display: block;
+  background-color: dimgray;
+  color: white;
+  text-align: center !important; }
+
+.body__header__nav__img {
+  float: left; }
+
+.infografia img {
+  margin: 7% 1%; }
+
+.infografia .infografia__card {
+  background-color: transparent;
+  color: white;
+  padding: 2%; }
+  .infografia .infografia__card .infografia__card__members {
+    display: flex;
+    justify-content: flex-end; }
+
+.infografia .infografia__banda {
+  max-width: 90%;
+  width: auto;
+  margin: auto auto; }
+
+.infografia .infografia__parrafo {
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+.tour__card {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  justify-items: center; }
+  .tour__card img {
+    height: 50%;
+    width: 50%; }
+
+input[type=checkbox] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2);
+  /* IE */
+  -moz-transform: scale(2);
+  /* FF */
+  -webkit-transform: scale(2);
+  /* Safari and Chrome */
+  -o-transform: scale(2);
+  /* Opera */
+  margin: 10px; }
+
+.btn-big {
+  -ms-transform: scale(2);
+  /* IE */
+  -moz-transform: scale(2);
+  /* FF */
+  -webkit-transform: scale(2);
+  /* Safari and Chrome */
+  -o-transform: scale(2);
+  /* Opera */
+  margin: 5% 10%; }
+
+.img-contacto {
+  position: relative;
+  margin: 5% auto;
+  text-align: center; }
+
+.videoHome {
+  padding: 3% 0 3% 0; }
+
+.novedades {
+  display: flex;
+  justify-content: space-around; }
+
+.infograf {
+  display: flex;
+  justify-content: space-around; }
+
+.tour {
+  display: flex;
+  justify-content: space-around; }
+
+.novedades img {
+  padding: 10px 15px 10px 15px;
+  margin: 10px 15px 10px 15px; }
+
+label {
+  background-color: #312a28;
+  color: white;
+  font-size: 2rem; }
+
+.temas li {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: white;
+  list-style: none; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "logo logo . . nav nav nav nav" ". discografia discografia discografia discografia discografia discografia ." ". discografia discografia discografia discografia discografia discografia ." ". discografia discografia discografia discografia discografia discografia ." ". discografia discografia discografia discografia discografia discografia ." ". . . . social social social social"; }
+
+.logo {
+  grid-area: logo; }
+
+.nav {
+  grid-area: nav; }
+
+.discografia {
+  grid-area: discografia;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.slide {
+  margin: 5%; }
+
+.page404 {
+  position: relative;
+  background-image: url(../img/404.jpg);
+  background-color: #fff;
+  height: 100vh;
+  background-size: cover; }
+
+.mensaje-404 {
+  display: inline-block;
+  padding: 20px 150px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 32%;
+  left: 10%;
+  color: white; }
+  .mensaje-404 .err-404 {
+    -webkit-text-stroke: 2px black;
+    font-size: 8rem; }
+  .mensaje-404 .mensaje-error {
+    -webkit-text-stroke: 1px;
+    font-size: 2.5rem; }
