@@ -37,6 +37,9 @@ label {
   border: white 1px solid;
   color: black !important; }
 
+.activa {
+  border-bottom: 1px solid; }
+
 .centrado, .nombre-index, .img-contacto, .videoHome {
   display: flex;
   justify-content: center; }
@@ -86,11 +89,10 @@ label {
   text-align: center !important; }
 
 .container__row__carousel-inner__carousel-item {
-  max-height: 50vh; }
+  height: 40vh;
+  overflow: hidden; }
   .container__row__carousel-inner__carousel-item img {
     width: 50vh; }
-  .container__row__carousel-inner__carousel-item a {
-    height: auto; }
 
 .footer__social {
   grid-area: social;
@@ -243,3 +245,6 @@ input[type=checkbox] {
   .mensaje-404 .mensaje-error {
     -webkit-text-stroke: 1px;
     font-size: 2.5rem; }
+
+.formulario label {
+  font-size: 3vh !important; }
