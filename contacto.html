@@ -44,7 +44,7 @@
                         <li class="nav-item menu-lista">
                             <a class="nav-link" aria-current="page" href="discografia.html">Discografia</a>
                         </li>
-                        <li class="nav-item menu-lista">
+                        <li class="nav-item menu-lista resaltado">
                             <a class="nav-link" href="tour.html">Tours</a>
                         </li>
                         <li class="nav-item menu-lista">
@@ -59,40 +59,42 @@
     <h1>Contacto</h1>
 
     <div class="img-contacto">
-        <img src="./img/logo_2.jpeg" width="1023" height="547" alt="within temptation contacto">
+        <img class="img-fluid" src="./img/logo_2.jpeg" alt="within temptation contacto">
         <div class="label-titulo">
-            <h2 class="h2-label">Comunicate con nosotros</h2>
+            Comunicate con nosotros
         </div>
     </div>
 
     <main class="container">
-        <div class="col-md-8">
-            <label for="nombre">Nombre</label>
-            <input type="text" class="form-control" id="nombre">
-        </div>
-        <div class="col-md-8">
-            <label for="apellido">Apellido</label>
-            <input type="text" class="form-control" id="apellido">
-        </div>
-        <div class="col-md-8">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email">
-        </div>
-        <div class="col-md-8">
-            <label class="form-check-label" for="flexCheckDefault">
-                ¿Desea recibir el Newsletter?
-            </label>
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        </div>
-        <div class="col-md-8">
-            <label for="comentarios">Comentario</label>
-            <textarea class="form-control" id="comentarios" cols="30" rows="10"></textarea>
-        </div>
-
-        <div>
-            <button class="btn btn-dark btn-big" type="reset">Limpiar el formulario</button>
-            <button class="btn btn-dark btn-big" type="submit">Enviar el formulario</button>
-        </div>
+        <form action="">
+            <div class="col-md-8">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="col-md-8">
+                <label for="apellido">Apellido</label>
+                <input type="text" class="form-control" id="apellido">
+            </div>
+            <div class="col-md-8">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="col-md-8">
+                <label class="form-check-label" for="flexCheckDefault">
+                    ¿Desea recibir el Newsletter?
+                </label>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            </div>
+            <div class="col-md-8">
+                <label for="comentarios">Comentario</label>
+                <textarea class="form-control" id="comentarios" cols="30" rows="10"></textarea>
+            </div>
+    
+            <div>
+                <button class="btn btn-dark btn-big" type="reset">Limpiar el formulario</button>
+                <button class="btn btn-dark btn-big" type="submit">Enviar el formulario</button>
+            </div>
+        </form>
     </main>
 
     <footer>
